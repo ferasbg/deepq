@@ -1,7 +1,6 @@
 import numpy as np
 import gym
 import pygame
-from pygame.locals import *
 import random
 
 from tensorflow import keras
@@ -54,24 +53,3 @@ class Agent():
       agent.save('agent.h5', overwrite=True)
       return agent
 
-  # learning rate
-  # huber loss, MSE
-  # terminated (check for termination state)
-  # successor_state
-  # def experience replay
-  # def huber_loss
-	# def load_weights
-	# def save_weights
-	# def action(self, state)
-	# def dqn_memory
-  # def expectimax(node, depth)
-  # def bellman_curve(self, state_size, action_size)
-  # fc
-  # gradient descent
-  # markov chain
-  # def action_space
-
-game = GameOf2048()
-
-# initialize variables
-# score, reward, state, action
